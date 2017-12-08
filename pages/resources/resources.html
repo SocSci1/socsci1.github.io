@@ -15,44 +15,52 @@
 
     <!-- Custom styles for this template -->
     <link href="../../css/jumbotron.css" rel="stylesheet">
+    <link href="../../css/offcanvas.css" rel="stylesheet">
   </head>
 
   <body>
     <div class="container">
-      <header class="masthead">
-        <h3 class="text-muted">Project VAWiki</h3>
+      <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="./stories.html">Resources</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <nav class="navbar navbar-expand-md navbar-light bg-light rounded mb-3">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav text-md-center nav-justified w-100">
-              <li class="nav-item">
-                <a class="nav-link" href="../../index.html">Home</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="resources.html">Resources<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../stories/stories.html">Stories</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../support/support.html">Support</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../about/about.html">About Us</a>
-              </li>
-
-            </ul>
-          </div>
-        </nav>
-      </header>
-
-
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../../index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="../../pages/resources/resources.html">Resources<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../pages/stories/stories.html">Stories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../pages/support/support.html">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../../pages/about/about.html">About Us</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li> -->
+          </ul>
+          <a href="../../index.html">Back to home &laquo;</a>
+          <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form> -->
+        </div>
+      </nav>
 
       <main role="main">
-
         <!-- Main jumbotron for a primary marketing message or call to action -->
         <div class="jumbotron">
           <div class="container">
@@ -196,7 +204,7 @@
               </div>
             </div>
           </div>
-          <a class="btn btn-primary text-center" data-toggle="collapse" data-target="#cedaw" style="width:200px;">Show/Hide Articles</a>
+          <a class="btn btn-primary text-center" style="text-align= center;" data-toggle="collapse" data-target="#cedaw" style="width:200px;">Show/Hide Articles</a>
 
           <hr class="my-2"">
           <h2 class="card-title text-center" style="margin-top:20px">Philippine laws that protect the rights of women</h2>
@@ -304,7 +312,7 @@
             </div>
 
           </div>
-          <a class="btn btn-primary text-center" data-toggle="collapse" data-target="#laws" style="width:200px;">Show/Hide</a>
+          <a class="btn btn-primary text-center" style="text-align= center;" data-toggle="collapse" data-target="#laws" style="width:200px;">Show/Hide</a>
 
           <hr class="my-2"">
           <h2 class="card-title text-center" style="margin-top:20px">Statistics on Violence against Filipino Women (taken from PCW.org)</h2>
@@ -316,8 +324,8 @@
                   <p class="card-text">
                     The NDHS revealed that one in five women aged 15-49 has experienced physical violence since age 15; 14.4 percent of married women have experienced physical abuse from their husbands; and more than one-third (37%) of separated or widowed women have experienced physical violence, implying that domestic violence could be the reason for separation or annulment.
                   </p>
-                  <img src="../../img/stats/chart1.png" alt="Physical Violence Statistics" align="middle">
-                  <img src="../../img/stats/chart2.png" alt="Physical Violence Statistics" align="middle">
+                  <img src="../../img/stats/chart1.png" alt="Physical Violence Statistics" align="middle" width="100%" height="100%">
+                  <img src="../../img/stats/chart2.png" alt="Physical Violence Statistics" align="middle" width="100%" height="100%">
               </div>
             </div>
 
@@ -327,7 +335,7 @@
                   <p class="card-text">
                     One in twenty five women age 15-49 who have ever had sex ever experienced forced first sexual intercourse. One in ten women age 15-49 ever experienced sexual violence
                   </p>
-                  <img src="../../img/stats/chart3.png" alt="Sexual Violence Statistics" align="middle">
+                  <img src="../../img/stats/chart3.png" alt="Sexual Violence Statistics" align="middle" width="100%" height="100%">
               </div>
             </div>
 
@@ -337,7 +345,7 @@
                   <p class="card-text">
                     Overall, 4 percent of women who have ever been pregnant have ever experienced physical violence during pregnancy. The incident increases slightly with number of living children; decreases slightly with age; decreases with education level; and declines steadily with wealth quintile.
                   </p>
-                  <img src="../../img/stats/chart4.png" alt="Physical Violence Statistics" align="middle">
+                  <img src="../../img/stats/chart4.png" alt="Physical Violence Statistics" align="middle" width="100%" height="100%">
               </div>
             </div>
 
@@ -347,7 +355,7 @@
                   <p class="card-text">
                     Emotional and other forms of non-personal violence are the most common types of spousal violence (23% of ever-married women). One in seven ever-married women experienced physical violence by their husbands while 8 percent experienced sexual violence by their husbands. Patterns in prevalence of spousal violence are similar to those of violence experienced by woman 15-49. Most likely higher among separated, widowed and divorced; currently married women who have married more than once; and in CARAGA region, Central Visayas and SOCCSKSARGEN.
                   </p>
-                  <img src="../../img/stats/chart5.png" alt="Physical Violence Statistics" align="middle">
+                  <img src="../../img/stats/chart5.png" alt="Physical Violence Statistics" align="middle" width="100%" height="100%">
               </div>
             </div>
 
@@ -357,7 +365,7 @@
                   <p class="card-text">
                     One in three women who experienced physical/sexual violence reported having physical injuries such as cuts, bruises or aches. More than 10 percent reported to have suffered eye injuries, sprains, dislocations or burns, and about the same proportion reported that they attempted to commit suicide. Three in five women who experienced physical/sexual violence reported having experienced psychological consequences like depression, anxiety and anger.
                   </p>
-                  <img src="../../img/stats/chart6.png" alt="Physical Violence Statistics" align="middle">
+                  <img src="../../img/stats/chart6.png" alt="Physical Violence Statistics" align="middle" width="100%" height="100%">
               </div>
             </div>
 
@@ -367,9 +375,9 @@
                   <p class="card-text">
                     Women were asked, "Have you ever hit, slapped, kicked, or done anything else to physically hurt your (last) husband at times when he was not already beating or physically hurting you?". 16 percent answered "Yes, ever" and 9 percent answered "Yes," in the last 12 months.
                   </p>
-                  <img src="../../img/stats/chart7a.png" alt="Physical Violence Statistics" align="middle">
-                  <img src="../../img/stats/chart7b.png" alt="Physical Violence Statistics" align="middle" >
-                  <img src="../../img/stats/chart7c.png" alt="Physical Violence Statistics" align="middle">
+                  <img src="../../img/stats/chart7a.png" alt="Physical Violence Statistics" align="middle" width="100%" height="100%">
+                  <img src="../../img/stats/chart7b.png" alt="Physical Violence Statistics" align="middle" width="100%" height="100%">
+                  <img src="../../img/stats/chart7c.png" alt="Physical Violence Statistics" align="middle" width="100%" height="100%">
               </div>
             </div>
 
@@ -379,11 +387,11 @@
                   <p class="card-text">
                     The 2013 report is so far the highest number of reported VAW cases since 1997. The trend, however, is not conclusive of a decreasing or increasing VAW incidence in the country because data are based only from what was reported to PNP. Across a ten-year period from 2004 to 2013, average violations of RA 9262 ranked first at 57 percent among the different VAW categories since its implementation in 2004. Reported cases under RA 9262 continue to increase from 218 in 2004 to 16,517 cases in 2013. Continuous information campaign on the law and its strict implementation may have caused the increasing trend. Since 2004, wife battering cases have been categorized under ‘Violation of RA 9262’ that is, if the victim files a case under such law, otherwise the reported cases will fall under physical injuries category. Physical injury is the second most prevalent case across the ten-year period, accounting for 19.7 percent of all reported VAW cases nationwide. Reported incidence of physical injury has been decreasing in the latter years. Its peak was in 2001 at 5,668 reported cases. The decrease can be partly attributed to the enactment into law of RA 9262 or Anti-VAWC Act of 2004 which penalizes abusive husbands and live-in partners. However, in 2009 and 2010 the reported cases show an increasing trend which slides back in 2011. The trend starts to increase again in 2012 and 2013. Reported rape cases which ranked third accounted for about 8.6 percent of total reported VAW cases from 2004 to 2013. Acts of lasciviousness ranked fourth at an average of 591 reported cases accounting for 5.5 percent of all reported VAW cases from 2004 to 2013. The comparative figures indicate an upward trend of the reported cases after a record low of 358 reported cases in 2007. Among the different regions, Region 6 (Western Visayas) posted the highest reported VAW cases from January to December 2013 with 4,833 reported cases, accounting for 20.3 percent of the total reported VAW cases nationwide. Region 11 (Davao) comes next at 4,411 (18.5%) reported VAW cases followed by Region 7 (Central Visayas) with 3,460 reported VAW cases or 14.5 percent of the total reported VAW cases nationwide. The Autonomous Region of Muslim Mindanao (ARMM) posted the lowest reported VAW cases with 86 cases in 2013.
                   </p>
-                  <img src="../../img/stats/chart8.png" alt="Physical Violence Statistics" align="middle">
+                  <img src="../../img/stats/chart8.png" alt="Physical Violence Statistics" align="middle" width="100%" height="100%">
               </div>
             </div>          
           </div>
-          <a class="btn btn-primary text-center" data-toggle="collapse" data-target="#stats" style="width:200px;">Show/Hide</a>
+          <a style="text-align= center;" class="btn btn-primary text-center" data-toggle="collapse" data-target="#stats" style="width:200px;">Show/Hide</a>
         </div>
       </div>
 
